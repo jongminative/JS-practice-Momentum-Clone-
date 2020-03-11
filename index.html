@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <title>Main | Momentum Clone</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__s-weather">
+        <i class="fas fa-thermometer-half"></i>
+        <span class="js-weather"></span>
+      </div>
+      <div class="status-bar__s-place">
+        <i class="fas fa-map-marker-alt"></i>
+        <span class="js-place"></span>
+      </div>
+    </div>
+    <div class="js-quotes">
+      <div class="js-quotes__text">
+        <span class="text"></span>
+      </div>
+      <div class="js-quotes__author">
+        <span class="author"></span>
+      </div>
+    </div>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write Today's To do list" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="quotes.js"></script>
+  </body>
+</html>
